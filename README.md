@@ -13,3 +13,6 @@ best model VGG19 (98.50%) by a substantial margin. This better-than-expected per
 and interpretability analysis.By presenting a very precise and intelligible deep learning model,
 this thesis improves the area of computerized ALL diagnosis in bone marrow smears. The clinical use of Resnet152v2ALL shows great promise for accelerating and improving ALL patient
 care through faster and more accurate diagnostics.
+
+Dataset: The images of this dataset were prepared in the bone marrow laboratory of Taleqani Hospital (Tehran, Iran). This dataset consisted of 3256 PBS images from 89 suspected of ALL patients whose blood samples were prepared and stained by skillful laboratory staff. This dataset is divided into two classes benign and malignant. The former comprises hematogones; the latter is the ALL group with three subtypes of malignant lymphoblasts: Early Pre-B, Pre-B, and Pro-B ALL. All the images were taken using a Zeiss camera in a microscope with 100x magnification and saved as JPG files. A specialist using the flow cytometry tool made the definitive determination of the types and subtypes of these cells. After color thresholding-based segmentation in the HSV color space, we also provide segmented images.
+https://www.kaggle.com/datasets/mehradaria/leukemia
